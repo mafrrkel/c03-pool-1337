@@ -13,14 +13,14 @@ int	ft_strcmp(char *s1, char *s2)
 	}
 	return (*(s1 + i) - *(s2 + i));
 }
-/*
+
 int	main(void)
 {
-	char	ss1[6] = "hello";
-	char	ss2[6] = "helilo";
+	char	ss1[6] = "helloi";
+	char	ss2[6] = "hello";
 	int	exit;
 
 	exit = ft_strcmp(ss1,ss2);
 	printf ("%d", exit);
 	return 0;
-}*/
+}
